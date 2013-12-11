@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户注册</title>
+</head>
+<body>
+	<form action="{:U('User/add_handle')}">
+		<label>学号:
+			<input type="text" name="stuid" />
+		</label>
+		<label>用户名:
+			<input type="text" name="username" />
+		</label>
+		<label>密码:
+			<input type="text" name="password" /><br />
+		</label>
+		<label>性别:
+			<select name="sex">
+				<option value="1">男</option>
+				<option value="0">女</option>
+			</select>
+		</label>
+		<label>手机号:
+			<input type="text" name="tele" /><br />
+		</label>
+		<label>用户组:
+			<input type="text" name="usergroup" />
+		</label>
+
+	</form>
+	
+</body>
+</html>
