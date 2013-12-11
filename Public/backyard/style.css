@@ -1,0 +1,222 @@
+@charset "utf-8";
+/********** basic-styles *************/
+body {
+  background-color: #d5d7d8;
+  color: #333;
+  min-width: 700px;
+}
+a:hover {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+/********** header *************/
+.header {
+  margin-top: 0px;
+  width: 100%;
+  display: block;
+  min-height: 50px;
+  padding-top: 5px;
+  background-color: #2f2a63;
+  background-repeat: repeat no-repeat;
+  border-bottom: 1px solid #2E2E2E;
+}
+.header-logo {
+  float: left;
+  margin-top: 8px;
+  margin-left: 36px !important;
+}
+#logo {
+  height: 30px;
+}
+/********** search **********/
+.panel-search {
+  padding-top: 10px;
+  margin-right: 20px;
+}
+/**********  user ***********/
+.userinfo {
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.user-group .dropdown-user {
+  padding: 20px 20px 0px 20px;
+  width: 320px;
+}
+.user-group .dropdown-user .description {
+  padding-left: 20px;
+}
+.user-group .dropdown-user li.dropdown-footer {
+  text-align: left;
+  margin: 20px -20px 0px -20px;
+  padding: 10px 10px 10px 20px;
+  background: #EEE;
+}
+#user-headerphoto {
+  width: 40px;
+}
+/**************** login-box ************/
+.login-box {
+  margin-top: 130px;
+  border: 1px solid #CDCDCD;
+}
+.login-box .login-box-header {
+  background: linear-gradient(to bottom, #00a0b1 0%, #008299 100%);
+  padding: 10px 20px 10px 20px;
+}
+.login-box .login-box-header span {
+  color: white;
+}
+.login-box .login-box-body {
+  background-color: white;
+  border-bottom: 1px solid #CDCDCD;
+  padding: 10px 20px 10px 20px;
+}
+.login-box .login-box-button {
+  background-color: #f5f5f5;
+  padding: 19px 20px 20px;
+  height: 60px;
+}
+.recover-account {
+  margin-top: 5px;
+}
+.form-groups {
+  margin-top: 5px;
+}
+.login-box > .login-box-body > form {
+  margin-bottom: 10px;
+}
+/************* main *************/
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 99.9%;
+  background-repeat: repeat;
+  min-width: 700px;
+}
+/************* navigator *************/
+.navigator {
+  position: absolute;
+  width: 14%;
+  height: 100%;
+}
+.navigator ul {
+  margin: 0px;
+}
+.navigator ul li {
+  list-style-type: none;
+  float: right;
+  display: block;
+  text-align: center;
+  margin: 0px 0px 0px 5%;
+  padding: 0px;
+  width: 95%;
+  font-size: 14px;
+  color: #e1e2e9;
+  background-color: #0e112a;
+  border-bottom: 1px solid #22284f;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.navigator ul li:hover {
+  background-color: #22284f;
+}
+.navigator ul li:nth-child(4n+1) {
+  border-left: 4px solid #35b5eb;
+}
+.navigator ul li:nth-child(4n+1):hover {
+  background-color: #35b5eb;
+}
+.navigator ul li:nth-child(4n+2) {
+  border-left: 4px solid #0acf67;
+}
+.navigator ul li:nth-child(4n+2):hover {
+  background-color: #0acf67;
+}
+.navigator ul li:nth-child(4n+3) {
+  border-left: 4px solid #f2c13f;
+}
+.navigator ul li:nth-child(4n+3):hover {
+  background-color: #f2c13f;
+}
+.navigator ul li:nth-child(4n+4) {
+  border-left: 4px solid #eb5b4c;
+}
+.navigator ul li:nth-child(4n+4):hover {
+  background-color: #eb5b4c;
+}
+.navigator ul a {
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navigator ul a i {
+  margin-top: -2px;
+  margin-right: 3px;
+}
+.navigator ul a:link,
+.navigator ul a:visited,
+.navigator ul a:active {
+  color: #d5d7d8;
+}
+.navigator ul a:hover {
+  color: #fff;
+}
+/********** content *********/
+.content {
+  display: block;
+  width: 85%;
+  margin-left: 15%;
+  border-left: none;
+  padding-bottom: 0px;
+}
+.content-body {
+  background-color: #EFEFEF;
+  padding: 5px 20px 0px 20px;
+}
+.nav-bar {
+  height: 40px;
+  background-color: #3f67c0;
+  overflow: hidden;
+}
+.nav-bar ul {
+  margin: 0px;
+}
+.nav-bar ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 40px;
+  margin: 0 -4px 0 0px;
+  padding: 0;
+}
+.nav-bar ul li a {
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  padding: 7.5px 20px 7.5px 20px;
+  vertical-align: middle;
+}
+.nav-bar ul li:hover {
+  background-color: #6585cd;
+}
+.nav-bar ul li.current {
+  background-color: #32529a;
+}
+/* button-group */
+.button-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.button-group ul li {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+}
+/* footer */.footer {
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  font-size: 12px;
+}
